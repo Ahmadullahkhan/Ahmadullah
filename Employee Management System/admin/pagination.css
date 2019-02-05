@@ -1,0 +1,40 @@
+.pagination{
+	display:block;
+	width:100%;
+	text-align:center;
+	clear:both;
+	}
+
+.pagination ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+.pagination li{
+	display:inline;
+	}
+
+.pagination .next{
+	margin:0;
+	}
+
+.pagination a{
+	display:inline-block;
+	padding:2px 5px 3px 5px;
+	margin:0 2px 0 0;
+	border:1px solid #D8D9DE;
+    background-color: white;
+    text-decoration: none;
+	}
+
+.pagination .current, .pagination .splitter{
+	padding:6px;
+	margin:0 2px 0 0;
+    
+	}
+
+.wrapper .pagination a:hover, .pagination .current, .pagination .splitter{
+	color:white;
+	background-color:green;
+	}
